@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+@import './login.css';
+@import './footer.css';
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+    min-height: 100vh;
+}
+main{
+  flex-grow: 1;
+}
