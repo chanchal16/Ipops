@@ -1,5 +1,5 @@
 .footer{
-    background-color: #065f46;
+    background-color: var(--emrald-dark);
 }
 .socials,.footer-header{
     display: flex;
@@ -10,7 +10,7 @@
 }
 .footer-header span{
     color: var(--secondary);
-    font-family: 'Amarante', cursive;
+    font-family: var(--font);
 }
 .links{
     margin: 0.5rem 1rem;

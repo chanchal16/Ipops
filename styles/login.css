@@ -1,6 +1,4 @@
-.navbars{
-    background-color: var(--secondary);
-}
+
 .form-container{
     padding: 0 1rem;
 }
@@ -16,10 +14,8 @@
     padding: 1rem 0.5rem;
 }
 .brand-name{
-    font-family: 'Amarante', cursive;
+    font-family: var(--font);
 }
-.brand-name:hover,
-.list-items:hover,
 .form-heading{
-    color: #065f46;
+    color: var(--emrald-dark);
 }
