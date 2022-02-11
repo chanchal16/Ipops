@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
 @import './login.css';
 @import './footer.css';
+@import './variables.css';
 
 *,
 *:before,
@@ -16,4 +17,11 @@ body{
 }
 main{
   flex-grow: 1;
+}
+.navbars{
+  background-color: var(--secondary);
+}
+.brand-name:hover,
+.list-items:hover{
+    color: var(--emrald-dark);
 }
