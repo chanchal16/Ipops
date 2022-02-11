@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://breezecss.netlify.app/styles/breeze.css' >
+    <link rel="stylesheet" href="../styles/main.css" class="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!----header--->
+    <header class="navbars">
+        <a href="" class="brand-name h6">
+            ipops
+        </a>
+        <nav>
+            <ul>
+                <li class="list-items">
+                    <i class="fas fa-heart fa-lg"></i>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-shopping-cart fa-lg"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!----main section--->
+    <main>
+        <!---sidebar---->
+        <aside>
+            <div class="sidebar">
+                <span class="h6 sidebar-heading">Filters</span>
+                <div class="filters">
+                    <p class="text-md">Price</p>
+                    <input type="range" min="100" max="1000" value="500" 
+                    class="slider accent" id="myRange">
+                </div>
+                <!---categories-->
+                <div class="filters">
+                    <p class="text-md">Category</p>
+                    <label class="text-sm accent" for="checkbox">
+                        <input type="checkbox" name="category" /> All </label> 
+                    <p class="text-sm accent">
+                        <input type="checkbox" name="category" /> Eye-glasses </p> 
+                    <p class="text-sm accent">
+                        <input type="checkbox" name="category" /> Computer-glasses </p>
+                    <p class="text-sm accent">
+                        <input type="checkbox" name="category" /> Sunglasses </p>
+                </div>
+                <!---ratings---->
+                <div class="filters">
+                    <p class="text-md">Ratings</p>
+                    <p class="text-sm accent" for="radio">
+                        <input type="radio" name="rating" />
+                         4<i class="fas fa-star fa-xs"></i> & above 
+                    </p> 
+                    <p class="text-sm accent" for="radio">
+                        <input type="radio" name="rating" />
+                         3<i class="fas fa-star fa-xs"></i> & above
+                    </p> 
+                    <p class="text-sm accent" for="radio">
+                        <input type="radio" name="rating" /> 
+                        2<i class="fas fa-star fa-xs"></i> & above 
+                    </p>
+                    <p class="text-sm accent" for="radio">
+                        <input type="radio" name="rating" /> 
+                        1<i class="fas fa-star fa-xs"></i> & above 
+                    </p>
+                </div>
+            </div>
+        </aside>
+        <!---content section--->
+        <section>
+            <div class="sort-div">
+                <label for="sort-items">Sort by:</label>
+                <select id="sort-items" name="sort-items">
+                    <option value="lowtohigh">Low to High</option>
+                    <option value="hightolow">High to Low</option>
+                </select>
+            </div>
+            <!---product list---->
+            <div class="product-list">
+                
+                <div class="card">
+                    <div class="card-media">
+                        <img class="vc-image" 
+                        src="https://cdn.eyemyeye.com/shared/images/products/E20C4254/E20C4254-1-hd.jpg" alt="top" />
+                        <span class="text-badge">new</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h4>Fastrack</h4>
+                            <span class=" gray">
+                                <i class="far fa-heart "></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <p class="desc-title">Eyeglasses</p>
+                            <p><strong> Rs.799 </strong> <span class="strike-text gray">Rs.999
+                                </span> <span class="secondary">20% off</span></p>
+                        </div>
+                        <div class="action-btns">
+                            <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-media">
+                        <img class="vc-image" 
+                        src="https://cdn.eyemyeye.com/shared/images/products/E20A3743/E20A3743-1-hd.jpg" alt="top" />
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h4>Vistazo</h4>
+                            <span class=" gray">
+                                <i class="far fa-heart "></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <p class="desc-title">Eyeglasses</p>
+                            <p><strong> Rs.999 </strong> <span class="strike-text gray">Rs.1299
+                                </span> <span class="secondary">20% off</span></p>
+                        </div>
+                        <div class="action-btns">
+                            <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-media">
+                        <img class="vc-image" 
+                        src="https://cdn.eyemyeye.com/shared/images/products/S20A2407/S20A2407-1-hd.jpg" alt="top" />
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h4>Titan</h4>
+                            <span class=" gray">
+                                <i class="far fa-heart "></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <p class="desc-title">Sunglasses</p>
+                            <p><strong> Rs.1299 </strong> <span class="strike-text gray">Rs.1499
+                                </span> <span class="secondary">20% off</span></p>
+                        </div>
+                        <div class="action-btns">
+                            <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-media">
+                        <img class="vc-image" 
+                        src="https://cdn.eyemyeye.com/shared/images/products/E20A4096/E20A4096-1-hd.jpg" alt="top" />
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h4>Nerdlane</h4>
+                            <span class=" gray">
+                                <i class="far fa-heart "></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <p class="desc-title">Computer glasses</p>
+                            <p><strong> Rs.1299 </strong> <span class="strike-text gray">Rs.1499
+                                </span> <span class="secondary">20% off</span></p>
+                        </div>
+                        <div class="action-btns">
+                            <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-media">
+                        <img class="vc-image" 
+                        src="https://cdn.eyemyeye.com/shared/images/products/S66A1714/S66A1714-1-hd.jpg" alt="top" />
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h4>Ray-Ban</h4>
+                            <span class=" gray">
+                                <i class="far fa-heart "></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <p class="desc-title">Sunglasses</p>
+                            <p><strong> Rs.1499 </strong> <span class="strike-text gray">Rs.1699
+                                </span> <span class="secondary">20% off</span></p>
+                        </div>
+                        <div class="action-btns">
+                            <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-media">
+                        <img class="vc-image" 
+                        src="https://cdn.eyemyeye.com/shared/images/products/E12A3261/E12A3261-1-hd.jpg" alt="top" />
+                        <span class="text-badge">new</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h4>Vistazo</h4>
+                            <span class=" gray">
+                                <i class="far fa-heart "></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <p class="desc-title">Computer glasses</p>
+                            <p><strong> Rs.1499 </strong> <span class="strike-text gray">Rs.1699
+                                </span> <span class="secondary">20% off</span></p>
+                        </div>
+                        <div class="action-btns">
+                            <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-media">
+                        <img class="vc-image" 
+                        src="https://cdn.eyemyeye.com/shared/images/products/E18A3477/E18A3477-1-hd.jpg" alt="top" />
+                        <span class="text-badge">new</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h4>Fastrack</h4>
+                            <span class=" gray">
+                                <i class="far fa-heart "></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <p class="desc-title">Eyeglasses</p>
+                            <p><strong> Rs.1699 </strong> <span class="strike-text gray">Rs.1799
+                                </span> <span class="secondary">10% off</span></p>
+                        </div>
+                        <div class="action-btns">
+                            <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-media">
+                        <img class="vc-image" 
+                        src="https://cdn.eyemyeye.com/shared/images/products/E10B3446/E10B3446-1-hd.jpg" alt="top" />
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h4>Nerdlane</h4>
+                            <span class=" gray">
+                                <i class="far fa-heart "></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <p class="desc-title">Computer glasses</p>
+                            <p><strong> Rs.1799 </strong> <span class="strike-text gray">Rs.1999
+                                </span> <span class="secondary">20% off</span></p>
+                        </div>
+                        <div class="action-btns">
+                            <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-media">
+                        <img class="vc-image" 
+                        src="https://cdn.eyemyeye.com/shared/images/products/S66B2142/S66B2142-1-hd.jpg" alt="top" />
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h4>Fastrack</h4>
+                            <span class=" gray">
+                                <i class="far fa-heart "></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <p class="desc-title">Sunglasses</p>
+                            <p><strong> Rs.1999 </strong> <span class="strike-text gray">Rs.2199
+                                </span> <span class="secondary">10% off</span></p>
+                        </div>
+                        <div class="action-btns">
+                            <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!------footer section-->
+    <footer class="footer">
+        <p class="text-md footer-header">made by &nbsp;<span>Chanchal</span></p>
+        <div class="socials">
+          <a class="links" href="https://github.com/chanchal16" target="_blank">
+            <i class="fab fa-github fa-2x"></i></a>
+          <a class="links" href="https://twitter.com/chanchal16_" target="_blank" >
+            <i class="fab fa-twitter fa-2x"></i></a>
+          <a class="links" href="https://www.linkedin.com/in/rajput07/" target="_blank">
+            <i class="fab fa-linkedin-in fa-2x"></i></a>
+        </div>
+        <p class="text-xs footer-header">© 2022 &nbsp;<span>ipops</span></p>
+      </footer>
+</body>
+</html>
