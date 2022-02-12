@@ -17,16 +17,19 @@
 body{
   display: flex;
   flex-direction: column;
-    min-height: 100vh;
+  min-height: 100vh;
 }
 main{
   flex-grow: 1;
+  
+}
+.main-container{
   display: flex;
 }
 .navbars{
   background-color: var(--secondary);
 }
 .brand-name:hover,
-.list-items:hover{
+a:hover{
     color: var(--emrald-dark);
 }
