@@ -5,6 +5,7 @@
 @import './sidebar.css';
 @import './products.css';
 @import './wishlist.css';
+@import './cart.css';
 
 *,
 *:before,
