@@ -1,5 +1,6 @@
 .footer{
     background-color: var(--emrald-dark);
+    padding: 0.5rem;
 }
 .socials,.footer-header{
     display: flex;
