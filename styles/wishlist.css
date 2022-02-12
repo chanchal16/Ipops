@@ -2,9 +2,8 @@
     padding: 2rem;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 3rem ;
 }
 .wishlisted{
     color: var(--danger);
