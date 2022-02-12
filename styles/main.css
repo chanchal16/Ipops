@@ -33,3 +33,6 @@ main{
 a:hover{
     color: var(--emrald-dark);
 }
+.menu-icon{
+  padding: 0;
+}
