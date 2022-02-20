@@ -18,7 +18,7 @@ input[type='checkbox'],input[type='radio']{
 .accent{
     accent-color: var(--secondary);
 }
-.slider{
+.--slider{
     outline: none;
     margin: 0.5rem 0;
     width: 100%;
