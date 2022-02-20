@@ -29,8 +29,11 @@ main{
 .navbars{
   background-color: var(--secondary);
 }
+.brand-name{
+  font-family: var(--font);
+}
 .brand-name:hover,
-a:hover{
+.list-items a:hover{
     color: var(--emrald-dark);
 }
 .menu-icon{
