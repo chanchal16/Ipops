@@ -94,9 +94,7 @@
 }
 .details{
     display: flex;
-    justify-content: space-between;
-    /* grid-template-columns: 300px 1fr; */
-    
+    justify-content: space-between;   
 }
 .details-footer{
     margin: 1rem;
